@@ -17,7 +17,7 @@ class MysqlHandler extends AbstractProcessingHandler
             'channel'     => $record['channel'],
             'message' => $record['message'],
             'level'   => $record['level_name'],
-            'context' => $record['context']
+            'context' => '',
         ]);
     }
 }
